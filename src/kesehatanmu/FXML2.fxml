@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="376.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kesehatanmu.FXML2Controller">
+   <children>
+      <Label layoutX="205.0" layoutY="30.0" text="Hasil Pengecekan">
+         <font>
+            <Font name="DFPOP1-W9" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="Nama" layoutX="286.0" layoutY="71.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <JFXTextArea fx:id="Ta" layoutX="47.0" layoutY="106.0" prefHeight="188.0" />
+      <JFXButton layoutX="266.0" layoutY="313.0" onAction="#Exit" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: lightgrey;" text="EXIT">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
